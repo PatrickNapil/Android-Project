@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="napil.androidapp"
+
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mainlogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Main.Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Activities.Login"
+            android:label="" >
+            <intent-filter>
+                <action android:name="LoginNow" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Activities.Signup"
+            android:label="@string/title_activity_register" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="napil.androidapp.Activities.Login" />
+        </activity>
+
+        <activity
+            android:name=".Activities.Homepage"
+            android:label="@string/title_activity_home_page" >
+        </activity>
+
+        <activity
+            android:name=".Activities.Movie"
+            android:label="@string/title_activity_movie" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="napil.androidapp.Activities.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".Activities.Retrieve"
+            android:label="@string/title_activity_retrieve" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="napil.androidapp.Activities.Login" />
+        </activity>
+
+        <activity
+            android:name=".Activities.Profile"
+            android:label="@string/title_activity_profile" >
+        </activity>
+
+        <activity
+            android:name=".Activities.Search"
+            android:label="@string/title_activity_search" >
+        </activity>
+
+        <activity
+            android:name=".Activities.Logout"
+            android:label="@string/title_activity_logout" >
+        </activity>
+
+        <activity
+            android:label="@string/app_name"
+            android:name="napil.androidapp.Activities.MainActivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

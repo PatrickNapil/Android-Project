@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CineTalk</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">.</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="fullname">Full name</string>
+    <string name="emailaddress">Email Address</string>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="forgotPassword">Forgot Password?</string>
+    <string name="title_activity_register">Back</string>
+    <string name="title_activity_retrieve">Back</string>
+    <string name="title_activity_home_page">Homepage</string>
+    <string name="title_activity_movie">Back</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="search">Search</string>
+    <string name="logout">Logout</string>
+    <string-array name="array_name">
+        <item>Search Movie by Genre</item>
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Animation</item>
+        <item>Biography</item>
+        <item>Comedy</item>
+        <item>Crime</item>
+        <item>Documentary</item>
+        <item>Drama</item>
+        <item>Family</item>
+        <item>Fantasy</item>
+        <item>History</item>
+        <item>Horror</item>
+        <item>Musical</item>
+        <item>Mystery</item>
+        <item>Romance</item>
+        <item>Sci-fi</item>
+        <item>Sport</item>
+        <item>Thriller</item>
+        <item>War</item>
+    </string-array>
+
+</resources>
